@@ -1,0 +1,32 @@
+[
+  {
+    "query": "reset password",
+    "answer": "click forgot password and follow reset instructions",
+    "expected": "ACCEPT"
+  },
+  {
+    "query": "audio not working",
+    "answer": "check audio device settings",
+    "expected": "ACCEPT"
+  },
+  {
+    "query": "display not working",
+    "answer": "restart the laptop and check monitor connection",
+    "expected": "ACCEPT"
+  },
+  {
+    "query": "asdfasdf",
+    "answer": "",
+    "expected": "STOP_SESSION"
+  },
+  {
+    "query": "random nonsense",
+    "answer": "",
+    "expected": "STOP_SESSION"
+  },
+  {
+    "query": "Confluence not working",
+    "answer": "restart the app",
+    "expected": "ACCEPT"
+  }
+]
